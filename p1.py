@@ -18,3 +18,10 @@ print(classmates[1])
 
 s = ['python', 'java', ['asp', 'php'], 'scheme']
 print(len(s))
+
+s = input('Age: ')
+age = int(s)
+if age > 20:
+    print("true")
+else:
+    print('false')
